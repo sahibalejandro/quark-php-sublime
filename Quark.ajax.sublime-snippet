@@ -1,0 +1,27 @@
+<snippet>
+  <content><![CDATA[Quark.ajax('${1:url}', {
+  data: {
+    $2
+  },
+  beforeSend: function(jqXHR, Settings)
+  {
+
+  },
+  complete: function(jqXHR, text_status)
+  {
+
+  },
+  success: function(Response, status_text, jqXHR)
+  {
+
+  },
+  fail: function(Response, status_text, jqXHR)
+  {
+
+  }
+});]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>Quark.ajax</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.js</scope>
+</snippet>

@@ -1,0 +1,33 @@
+<snippet>
+  <content><![CDATA[class ${1:ExampleController} extends ${2:QuarkController}
+{
+  public function __construct()
+  {
+    parent::__construct();
+
+    /**
+     * TODO:
+     * Define access levels if needed.
+     */
+    // \$this->setDefaultAccessLevel(0);
+    // \$this->setActionsAccessLevel(array('actionName' => 0));
+  }
+
+  public function index()
+  {
+    /**
+     * TODO:
+     * Implement your own action algorithm here!
+     */
+    
+    $3
+
+    // Render action view.
+    \$this->renderView();
+  }
+}]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>QuarkController</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.php</scope>
+</snippet>

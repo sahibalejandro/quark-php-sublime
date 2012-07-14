@@ -1,0 +1,27 @@
+extends ${1:QuarkController}
+{
+  public function __construct()
+  {
+    parent::__construct();
+
+    /**
+     * TODO:
+     * Define access levels if needed.
+     */
+    // \$this->setDefaultAccessLevel(0);
+    // \$this->setActionsAccessLevel(array('actionName' => 0));
+  }
+
+  public function index()
+  {
+    /**
+     * TODO:
+     * Implement your own action algorithm here!
+     */
+    
+    $2
+
+    // Render action view.
+    \$this->renderView();
+  }
+}

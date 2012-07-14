@@ -1,0 +1,46 @@
+<snippet>
+  <content><![CDATA[class ${1:ClassName} extends ${2:QuarkORM}
+{
+  /**
+   * Nombre de la tabla relacionada con este ORM
+   * @var string
+   */
+  public static \$table = '${3:table_name}';
+
+  /**
+   * Nombre de la conección que utiliza este ORM
+   * @var string
+   */
+  public static \$connection = '${4:default}';
+  
+  /**
+   * Valida los datos antes de guardar, este metodo es invocado
+   * automaticamente por save().
+   *
+   * @return boolean
+   */
+  protected function validate()
+  {
+    /**
+     * TODO:
+     * Programar algoritmo de validación
+     */
+    return true;
+  }
+
+  /**
+   * Devuelve una instancia de QuarkORMQueryBuilder configurada para realizar
+   * consultas sobre la tabla y conección del ORM actual.
+   *
+   * @return QuarkORMQueryBuilder
+   */
+  public static function query()
+  {
+    return new QuarkORMQueryBuilder(__CLASS__);
+  }
+}]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>QuarkORM</tabTrigger> -->
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.php</scope>
+</snippet>
